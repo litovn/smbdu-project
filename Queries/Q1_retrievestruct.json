@@ -1,0 +1,63 @@
+{
+  "salmon_dataset": {
+    "mappings": {
+      "_meta": {
+        "created_by": "file-data-visualizer"
+      },
+      "properties": {
+        "@timestamp": {
+          "type": "date"
+        },
+        "ASLProjectType": {
+          "type": "keyword"
+        },
+        "DataSource": {
+          "type": "keyword"
+        },
+        "Fresh_Water_Age": {
+          "type": "double"
+        },
+        "Gear": {
+          "type": "keyword"
+        },
+        "Lat": {
+          "type": "double"
+        },
+        "Length": {
+          "type": "double"
+        },
+        "LocationID": {
+          "type": "keyword"
+        },
+        "Lon": {
+          "type": "double"
+        },
+        "SASAP_Region": {
+          "type": "keyword"
+        },
+        "Salt_Water_Age": {
+          "type": "double"
+        },
+        "Sex": {
+          "type": "keyword"
+        },
+        "Species": {
+          "type": "keyword"
+        },
+        "Weight": {
+          "type": "double"
+        },
+        "location": {
+          "type": "geo_point"
+        },
+        "sampleDate": {
+          "type": "date",
+          "format": "iso8601"
+        },
+        "sampleYear": {
+          "type": "double"
+        }
+      }
+    }
+  }
+}
