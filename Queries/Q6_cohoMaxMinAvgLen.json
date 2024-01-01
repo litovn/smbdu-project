@@ -1,0 +1,52 @@
+{
+  "took": 3,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 2955,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "avg_len_bysource": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "ADFG Southeast and Westward",
+          "doc_count": 2165,
+          "min_length": {
+            "value": 301
+          },
+          "avg_length": {
+            "value": 601.9200923787529
+          },
+          "max_length": {
+            "value": 772
+          }
+        },
+        {
+          "key": "ADFG AYK",
+          "doc_count": 768,
+          "min_length": {
+            "value": 409
+          },
+          "avg_length": {
+            "value": 570.2708333333334
+          },
+          "max_length": {
+            "value": 694
+          }
+        }
+      ]
+    }
+  }
+}
