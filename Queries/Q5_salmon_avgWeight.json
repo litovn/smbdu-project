@@ -1,0 +1,76 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 2354,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "avg_weight_per_year": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": 1980,
+          "doc_count": 913,
+          "filtered_weight": {
+            "doc_count": 372,
+            "avg_weight": {
+              "value": 1.9163682795698924
+            }
+          }
+        },
+        {
+          "key": 1983,
+          "doc_count": 578,
+          "filtered_weight": {
+            "doc_count": 86,
+            "avg_weight": {
+              "value": 1.7837209302325583
+            }
+          }
+        },
+        {
+          "key": 1981,
+          "doc_count": 504,
+          "filtered_weight": {
+            "doc_count": 306,
+            "avg_weight": {
+              "value": 1.89981045751634
+            }
+          }
+        },
+        {
+          "key": 1982,
+          "doc_count": 354,
+          "filtered_weight": {
+            "doc_count": 49,
+            "avg_weight": {
+              "value": 1.8959183673469389
+            }
+          }
+        },
+        {
+          "key": 1964,
+          "doc_count": 5,
+          "filtered_weight": {
+            "doc_count": 3,
+            "avg_weight": {
+              "value": 4.6000000000000005
+            }
+          }
+        }
+      ]
+    }
+  }
+}
