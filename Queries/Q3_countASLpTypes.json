@@ -1,0 +1,46 @@
+{
+  "took": 0,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "project_type_count": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "escapement",
+          "doc_count": 94136
+        },
+        {
+          "key": "test fishing",
+          "doc_count": 12881
+        },
+        {
+          "key": "subsistence catch",
+          "doc_count": 4433
+        },
+        {
+          "key": "commercial catch",
+          "doc_count": 1395
+        },
+        {
+          "key": "sport catch",
+          "doc_count": 1
+        }
+      ]
+    }
+  }
+}
