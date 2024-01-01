@@ -1,0 +1,259 @@
+{
+  "took": 0,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 54,
+      "relation": "eq"
+    },
+    "max_score": 3.9180074,
+    "hits": [
+      {
+        "_index": "salmon_dataset",
+        "_id": "JuUQvIwB4ZEsnxBwrtMq",
+        "_score": 3.9180074,
+        "_source": {
+          "Sex": "female",
+          "LocationID": "Situk River",
+          "Lon": -139.5714325,
+          "SASAP_Region": "Southeast",
+          "sampleYear": 2016,
+          "Gear": "weir",
+          "Weight": 0,
+          "DataSource": "ADFG Southeast and Westward",
+          "@timestamp": "2016-06-22T00:00:00.000Z",
+          "ASLProjectType": "escapement",
+          "Length": 740,
+          "sampleDate": "2016-06-22",
+          "Salt_Water_Age": 3,
+          "location": "59.45795207,-139.5714325",
+          "Fresh_Water_Age": 0,
+          "Species": "chinook",
+          "Lat": 59.45795207
+        }
+      },
+      {
+        "_index": "salmon_dataset",
+        "_id": "0OUQvIwB4ZEsnxBwrtQq",
+        "_score": 3.9180074,
+        "_source": {
+          "Sex": "female",
+          "LocationID": "Situk River",
+          "Lon": -139.5714325,
+          "SASAP_Region": "Southeast",
+          "sampleYear": 2016,
+          "Gear": "weir",
+          "Weight": 0,
+          "DataSource": "ADFG Southeast and Westward",
+          "@timestamp": "2016-07-03T00:00:00.000Z",
+          "ASLProjectType": "escapement",
+          "Length": 740,
+          "sampleDate": "2016-07-03",
+          "Salt_Water_Age": 3,
+          "location": "59.45795207,-139.5714325",
+          "Fresh_Water_Age": 0,
+          "Species": "chinook",
+          "Lat": 59.45795207
+        }
+      },
+      {
+        "_index": "salmon_dataset",
+        "_id": "ueUQvIwB4ZEsnxBwrtz0",
+        "_score": 3.9180074,
+        "_source": {
+          "Sex": "female",
+          "LocationID": "Situk River",
+          "Lon": -139.5714325,
+          "SASAP_Region": "Southeast",
+          "sampleYear": 2016,
+          "Gear": "weir",
+          "Weight": 0,
+          "DataSource": "ADFG Southeast and Westward",
+          "@timestamp": "2016-07-01T00:00:00.000Z",
+          "ASLProjectType": "escapement",
+          "Length": 760,
+          "sampleDate": "2016-07-01",
+          "Salt_Water_Age": 3,
+          "location": "59.45795207,-139.5714325",
+          "Fresh_Water_Age": 0,
+          "Species": "chinook",
+          "Lat": 59.45795207
+        }
+      },
+      {
+        "_index": "salmon_dataset",
+        "_id": "beUQvIwB4ZEsnxBwruj0",
+        "_score": 3.9180074,
+        "_source": {
+          "Sex": "male",
+          "LocationID": "Situk River",
+          "Lon": -139.5714325,
+          "SASAP_Region": "Southeast",
+          "sampleYear": 2016,
+          "Gear": "weir",
+          "Weight": 0,
+          "DataSource": "ADFG Southeast and Westward",
+          "@timestamp": "2016-08-04T00:00:00.000+01:00",
+          "ASLProjectType": "escapement",
+          "Length": 350,
+          "sampleDate": "2016-08-04",
+          "Salt_Water_Age": 1,
+          "location": "59.45795207,-139.5714325",
+          "Fresh_Water_Age": 0,
+          "Species": "chinook",
+          "Lat": 59.45795207
+        }
+      },
+      {
+        "_index": "salmon_dataset",
+        "_id": "D-UQvIwB4ZEsnxBwr-3A",
+        "_score": 3.9180074,
+        "_source": {
+          "Sex": "male",
+          "LocationID": "Situk River",
+          "Lon": -139.5714325,
+          "SASAP_Region": "Southeast",
+          "sampleYear": 2016,
+          "Gear": "weir",
+          "Weight": 0,
+          "DataSource": "ADFG Southeast and Westward",
+          "@timestamp": "2016-06-26T00:00:00.000Z",
+          "ASLProjectType": "escapement",
+          "Length": 700,
+          "sampleDate": "2016-06-26",
+          "Salt_Water_Age": 2,
+          "location": "59.45795207,-139.5714325",
+          "Fresh_Water_Age": 0,
+          "Species": "chinook",
+          "Lat": 59.45795207
+        }
+      },
+      {
+        "_index": "salmon_dataset",
+        "_id": "dOUQvIwB4ZEsnxBwr_XB",
+        "_score": 3.9180074,
+        "_source": {
+          "Sex": "male",
+          "LocationID": "Situk River",
+          "Lon": -139.5714325,
+          "SASAP_Region": "Southeast",
+          "sampleYear": 2016,
+          "Gear": "weir",
+          "Weight": 0,
+          "DataSource": "ADFG Southeast and Westward",
+          "@timestamp": "2016-07-17T00:00:00.000+01:00",
+          "ASLProjectType": "escapement",
+          "Length": 750,
+          "sampleDate": "2016-07-17",
+          "Salt_Water_Age": 3,
+          "location": "59.45795207,-139.5714325",
+          "Fresh_Water_Age": 0,
+          "Species": "chinook",
+          "Lat": 59.45795207
+        }
+      },
+      {
+        "_index": "salmon_dataset",
+        "_id": "7uUQvIwB4ZEsnxBwr_jB",
+        "_score": 3.9180074,
+        "_source": {
+          "Sex": "female",
+          "LocationID": "Situk River",
+          "Lon": -139.5714325,
+          "SASAP_Region": "Southeast",
+          "sampleYear": 2016,
+          "Gear": "weir",
+          "Weight": 0,
+          "DataSource": "ADFG Southeast and Westward",
+          "@timestamp": "2016-07-03T00:00:00.000Z",
+          "ASLProjectType": "escapement",
+          "Length": 800,
+          "sampleDate": "2016-07-03",
+          "Salt_Water_Age": 4,
+          "location": "59.45795207,-139.5714325",
+          "Fresh_Water_Age": 0,
+          "Species": "chinook",
+          "Lat": 59.45795207
+        }
+      },
+      {
+        "_index": "salmon_dataset",
+        "_id": "9uUQvIwB4ZEsnxBwsPyJ",
+        "_score": 3.9180074,
+        "_source": {
+          "Sex": "female",
+          "LocationID": "Situk River",
+          "Lon": -139.5714325,
+          "SASAP_Region": "Southeast",
+          "sampleYear": 2016,
+          "Gear": "weir",
+          "Weight": 0,
+          "DataSource": "ADFG Southeast and Westward",
+          "@timestamp": "2016-07-17T00:00:00.000+01:00",
+          "ASLProjectType": "escapement",
+          "Length": 730,
+          "sampleDate": "2016-07-17",
+          "Salt_Water_Age": 3,
+          "location": "59.45795207,-139.5714325",
+          "Fresh_Water_Age": 0,
+          "Species": "chinook",
+          "Lat": 59.45795207
+        }
+      },
+      {
+        "_index": "salmon_dataset",
+        "_id": "2OUQvIwB4ZEsnxBwsP6K",
+        "_score": 3.9180074,
+        "_source": {
+          "Sex": "female",
+          "LocationID": "Situk River",
+          "Lon": -139.5714325,
+          "SASAP_Region": "Southeast",
+          "sampleYear": 2016,
+          "Gear": "weir",
+          "Weight": 0,
+          "DataSource": "ADFG Southeast and Westward",
+          "@timestamp": "2016-06-22T00:00:00.000Z",
+          "ASLProjectType": "escapement",
+          "Length": 710,
+          "sampleDate": "2016-06-22",
+          "Salt_Water_Age": 2,
+          "location": "59.45795207,-139.5714325",
+          "Fresh_Water_Age": 0,
+          "Species": "chinook",
+          "Lat": 59.45795207
+        }
+      },
+      {
+        "_index": "salmon_dataset",
+        "_id": "geYQvIwB4ZEsnxBwsRBO",
+        "_score": 3.9180074,
+        "_source": {
+          "Sex": "male",
+          "LocationID": "Situk River",
+          "Lon": -139.5714325,
+          "SASAP_Region": "Southeast",
+          "sampleYear": 2016,
+          "Gear": "weir",
+          "Weight": 0,
+          "DataSource": "ADFG Southeast and Westward",
+          "@timestamp": "2016-06-26T00:00:00.000Z",
+          "ASLProjectType": "escapement",
+          "Length": 620,
+          "sampleDate": "2016-06-26",
+          "Salt_Water_Age": 2,
+          "location": "59.45795207,-139.5714325",
+          "Fresh_Water_Age": 0,
+          "Species": "chinook",
+          "Lat": 59.45795207
+        }
+      }
+    ]
+  }
+}
