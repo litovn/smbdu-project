@@ -1,5 +1,5 @@
 {
-  "took": 0,
+  "took": 1,
   "timed_out": false,
   "_shards": {
     "total": 1,
@@ -23,10 +23,7 @@
           "from": 500,
           "to": 700,
           "doc_count": 225,
-          "avg_age": {
-            "value": 4.262222222222222
-          },
-          "n_locations": {
+          "location_distribution": {
             "doc_count_error_upper_bound": 0,
             "sum_other_doc_count": 1,
             "buckets": [
@@ -40,27 +37,198 @@
                     {
                       "key": "chinook",
                       "doc_count": 155,
-                      "min_length": {
-                        "value": 345
-                      },
-                      "oldest": {
-                        "value": 6
-                      },
-                      "max_length": {
-                        "value": 1030
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 95,
+                            "stats": {
+                              "count": 95,
+                              "min": 345,
+                              "max": 1030,
+                              "avg": 811.3578947368421,
+                              "sum": 77079
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 95,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "6uYQvIwB4ZEsnxBwsAyK",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 694,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      694
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 95,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "neUQvIwB4ZEsnxBwpC8_",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 905,
+                                      "Age": 6
+                                    },
+                                    "sort": [
+                                      6,
+                                      905
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "key": "female",
+                            "doc_count": 60,
+                            "stats": {
+                              "count": 60,
+                              "min": 569,
+                              "max": 960,
+                              "avg": 840.6666666666666,
+                              "sum": 50440
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 60,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "xOQQvIwB4ZEsnxBwnMWX",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 952,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      952
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 60,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "B-YQvIwB4ZEsnxBwsisb",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 911,
+                                      "Age": 6
+                                    },
+                                    "sort": [
+                                      6,
+                                      911
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     },
                     {
                       "key": "chum",
                       "doc_count": 6,
-                      "min_length": {
-                        "value": 553
-                      },
-                      "oldest": {
-                        "value": 4
-                      },
-                      "max_length": {
-                        "value": 692
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 6,
+                            "stats": {
+                              "count": 6,
+                              "min": 553,
+                              "max": 692,
+                              "avg": 647,
+                              "sum": 3882
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 6,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "8-YQvIwB4ZEsnxBwsASK",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 668,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      668
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 6,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "t-QQvIwB4ZEsnxBwnud7",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 642,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      642
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -76,14 +244,129 @@
                     {
                       "key": "sockeye",
                       "doc_count": 29,
-                      "min_length": {
-                        "value": 480
-                      },
-                      "oldest": {
-                        "value": 5
-                      },
-                      "max_length": {
-                        "value": 570
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 24,
+                            "stats": {
+                              "count": 24,
+                              "min": 480,
+                              "max": 570,
+                              "avg": 541.4583333333334,
+                              "sum": 12995
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 24,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "POYQvIwB4ZEsnxBwtHz-",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 480,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      480
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 24,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "XeUQvIwB4ZEsnxBwrbsS",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 530,
+                                      "Age": 5
+                                    },
+                                    "sort": [
+                                      5,
+                                      530
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "key": "female",
+                            "doc_count": 5,
+                            "stats": {
+                              "count": 5,
+                              "min": 535,
+                              "max": 570,
+                              "avg": 549,
+                              "sum": 2745
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 5,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "T-YQvIwB4ZEsnxBwsA6L",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 570,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      570
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 5,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "YeUQvIwB4ZEsnxBwsP2J",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 535,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      535
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -99,14 +382,129 @@
                     {
                       "key": "chum",
                       "doc_count": 17,
-                      "min_length": {
-                        "value": 610
-                      },
-                      "oldest": {
-                        "value": 4
-                      },
-                      "max_length": {
-                        "value": 669
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 16,
+                            "stats": {
+                              "count": 16,
+                              "min": 610,
+                              "max": 669,
+                              "avg": 644.4375,
+                              "sum": 10311
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 16,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "EOUQvIwB4ZEsnxBwrb0S",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 660,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      660
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 16,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "keQQvIwB4ZEsnxBwoPwt",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 636,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      636
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "key": "female",
+                            "doc_count": 1,
+                            "stats": {
+                              "count": 1,
+                              "min": 664,
+                              "max": 664,
+                              "avg": 664,
+                              "sum": 664
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "Q-YQvIwB4ZEsnxBwtHP9",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 664,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      664
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "Q-YQvIwB4ZEsnxBwtHP9",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 664,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      664
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -122,14 +520,70 @@
                     {
                       "key": "sockeye",
                       "doc_count": 6,
-                      "min_length": {
-                        "value": 523
-                      },
-                      "oldest": {
-                        "value": 5
-                      },
-                      "max_length": {
-                        "value": 665
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 6,
+                            "stats": {
+                              "count": 6,
+                              "min": 523,
+                              "max": 665,
+                              "avg": 619.3333333333334,
+                              "sum": 3716
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 6,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "r-UQvIwB4ZEsnxBwpT94",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 665,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      665
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 6,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "BeYQvIwB4ZEsnxBws0yR",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 612,
+                                      "Age": 5
+                                    },
+                                    "sort": [
+                                      5,
+                                      612
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -145,14 +599,70 @@
                     {
                       "key": "sockeye",
                       "doc_count": 3,
-                      "min_length": {
-                        "value": 620
-                      },
-                      "oldest": {
-                        "value": 4
-                      },
-                      "max_length": {
-                        "value": 650
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 3,
+                            "stats": {
+                              "count": 3,
+                              "min": 620,
+                              "max": 650,
+                              "avg": 630.3333333333334,
+                              "sum": 1891
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 3,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "i-UQvIwB4ZEsnxBwqXdo",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 650,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      650
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 3,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "buUQvIwB4ZEsnxBwoiDs",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 620,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      620
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -168,14 +678,129 @@
                     {
                       "key": "sockeye",
                       "doc_count": 3,
-                      "min_length": {
-                        "value": 520
-                      },
-                      "oldest": {
-                        "value": 4
-                      },
-                      "max_length": {
-                        "value": 570
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 2,
+                            "stats": {
+                              "count": 2,
+                              "min": 545,
+                              "max": 570,
+                              "avg": 557.5,
+                              "sum": 1115
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 2,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "Q-UQvIwB4ZEsnxBwr_TB",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 570,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      570
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 2,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "LeUQvIwB4ZEsnxBwpCs-",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 545,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      545
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "key": "male",
+                            "doc_count": 1,
+                            "stats": {
+                              "count": 1,
+                              "min": 520,
+                              "max": 520,
+                              "avg": 520,
+                              "sum": 520
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "s-YQvIwB4ZEsnxBwtHv-",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 520,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      520
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "s-YQvIwB4ZEsnxBwtHv-",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 520,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      520
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -191,14 +816,70 @@
                     {
                       "key": "chum",
                       "doc_count": 2,
-                      "min_length": {
-                        "value": 661
-                      },
-                      "oldest": {
-                        "value": 3
-                      },
-                      "max_length": {
-                        "value": 693
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 2,
+                            "stats": {
+                              "count": 2,
+                              "min": 661,
+                              "max": 693,
+                              "avg": 677,
+                              "sum": 1354
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 2,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "rOUQvIwB4ZEsnxBwq6bp",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 693,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      693
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 2,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "yOUQvIwB4ZEsnxBwoiDs",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 661,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      661
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -214,14 +895,70 @@
                     {
                       "key": "chum",
                       "doc_count": 1,
-                      "min_length": {
-                        "value": 622
-                      },
-                      "oldest": {
-                        "value": 4
-                      },
-                      "max_length": {
-                        "value": 622
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 1,
+                            "stats": {
+                              "count": 1,
+                              "min": 622,
+                              "max": 622,
+                              "avg": 622,
+                              "sum": 622
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "I-UQvIwB4ZEsnxBwoiHs",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 622,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      622
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "I-UQvIwB4ZEsnxBwoiHs",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 622,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      622
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -237,14 +974,70 @@
                     {
                       "key": "chum",
                       "doc_count": 1,
-                      "min_length": {
-                        "value": 711
-                      },
-                      "oldest": {
-                        "value": 3
-                      },
-                      "max_length": {
-                        "value": 711
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 1,
+                            "stats": {
+                              "count": 1,
+                              "min": 711,
+                              "max": 711,
+                              "avg": 711,
+                              "sum": 711
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "M-YQvIwB4ZEsnxBwtHP9",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 711,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      711
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "M-YQvIwB4ZEsnxBwtHP9",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 711,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      711
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -260,32 +1053,74 @@
                     {
                       "key": "chinook",
                       "doc_count": 1,
-                      "min_length": {
-                        "value": 1098
-                      },
-                      "oldest": {
-                        "value": 6
-                      },
-                      "max_length": {
-                        "value": 1098
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 1,
+                            "stats": {
+                              "count": 1,
+                              "min": 1098,
+                              "max": 1098,
+                              "avg": 1098,
+                              "sum": 1098
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "AOYQvIwB4ZEsnxBwsjQc",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 1098,
+                                      "Age": 6
+                                    },
+                                    "sort": [
+                                      6,
+                                      1098
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "AOYQvIwB4ZEsnxBwsjQc",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 1098,
+                                      "Age": 6
+                                    },
+                                    "sort": [
+                                      6,
+                                      1098
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
                 }
-              }
-            ]
-          },
-          "sex_distribution": {
-            "doc_count_error_upper_bound": 0,
-            "sum_other_doc_count": 0,
-            "buckets": [
-              {
-                "key": "male",
-                "doc_count": 157
-              },
-              {
-                "key": "female",
-                "doc_count": 68
               }
             ]
           }
@@ -295,10 +1130,7 @@
           "from": 700,
           "to": 1000,
           "doc_count": 75,
-          "avg_age": {
-            "value": 4.573333333333333
-          },
-          "n_locations": {
+          "location_distribution": {
             "doc_count_error_upper_bound": 0,
             "sum_other_doc_count": 0,
             "buckets": [
@@ -312,27 +1144,198 @@
                     {
                       "key": "chinook",
                       "doc_count": 61,
-                      "min_length": {
-                        "value": 715
-                      },
-                      "oldest": {
-                        "value": 6
-                      },
-                      "max_length": {
-                        "value": 865
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 34,
+                            "stats": {
+                              "count": 34,
+                              "min": 718,
+                              "max": 839,
+                              "avg": 791.9117647058823,
+                              "sum": 26925
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 34,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "7eQQvIwB4ZEsnxBwoO4r",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 795,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      795
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 34,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "m-UQvIwB4ZEsnxBwrsMp",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 796,
+                                      "Age": 6
+                                    },
+                                    "sort": [
+                                      6,
+                                      796
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "key": "male",
+                            "doc_count": 27,
+                            "stats": {
+                              "count": 27,
+                              "min": 715,
+                              "max": 865,
+                              "avg": 768.2592592592592,
+                              "sum": 20743
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 27,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "IeYQvIwB4ZEsnxBwtHFV",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 865,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      865
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 27,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "a-UQvIwB4ZEsnxBwq6np",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 735,
+                                      "Age": 5
+                                    },
+                                    "sort": [
+                                      5,
+                                      735
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     },
                     {
                       "key": "chum",
                       "doc_count": 2,
-                      "min_length": {
-                        "value": 598
-                      },
-                      "oldest": {
-                        "value": 3
-                      },
-                      "max_length": {
-                        "value": 613
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 2,
+                            "stats": {
+                              "count": 2,
+                              "min": 598,
+                              "max": 613,
+                              "avg": 605.5,
+                              "sum": 1211
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 2,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "t-YQvIwB4ZEsnxBwsRBO",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 613,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      613
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 2,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "RuUQvIwB4ZEsnxBwrt70",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 598,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      598
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -348,14 +1351,129 @@
                     {
                       "key": "chinook",
                       "doc_count": 10,
-                      "min_length": {
-                        "value": 680
-                      },
-                      "oldest": {
-                        "value": 5
-                      },
-                      "max_length": {
-                        "value": 885
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 7,
+                            "stats": {
+                              "count": 7,
+                              "min": 690,
+                              "max": 840,
+                              "avg": 785.5714285714286,
+                              "sum": 5499
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 7,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "meYQvIwB4ZEsnxBwtGhU",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 690,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      690
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 7,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "IOUQvIwB4ZEsnxBwqX9p",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 765,
+                                      "Age": 5
+                                    },
+                                    "sort": [
+                                      5,
+                                      765
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "key": "male",
+                            "doc_count": 3,
+                            "stats": {
+                              "count": 3,
+                              "min": 680,
+                              "max": 885,
+                              "avg": 763,
+                              "sum": 2289
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 3,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "auYQvIwB4ZEsnxBwtF5U",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 885,
+                                      "Age": 5
+                                    },
+                                    "sort": [
+                                      5,
+                                      885
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 3,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "JuYQvIwB4ZEsnxBws1qS",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 680,
+                                      "Age": 5
+                                    },
+                                    "sort": [
+                                      5,
+                                      680
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -371,14 +1489,70 @@
                     {
                       "key": "sockeye",
                       "doc_count": 1,
-                      "min_length": {
-                        "value": 539
-                      },
-                      "oldest": {
-                        "value": 4
-                      },
-                      "max_length": {
-                        "value": 539
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 1,
+                            "stats": {
+                              "count": 1,
+                              "min": 539,
+                              "max": 539,
+                              "avg": 539,
+                              "sum": 539
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "a-YQvIwB4ZEsnxBws0qR",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 539,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      539
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "a-YQvIwB4ZEsnxBws0qR",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 539,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      539
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -394,32 +1568,74 @@
                     {
                       "key": "chinook",
                       "doc_count": 1,
-                      "min_length": {
-                        "value": 660
-                      },
-                      "oldest": {
-                        "value": 4
-                      },
-                      "max_length": {
-                        "value": 660
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 1,
+                            "stats": {
+                              "count": 1,
+                              "min": 660,
+                              "max": 660,
+                              "avg": 660,
+                              "sum": 660
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "5uUQvIwB4ZEsnxBwoQOO",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 660,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      660
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "5uUQvIwB4ZEsnxBwoQOO",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 660,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      660
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
                 }
-              }
-            ]
-          },
-          "sex_distribution": {
-            "doc_count_error_upper_bound": 0,
-            "sum_other_doc_count": 0,
-            "buckets": [
-              {
-                "key": "female",
-                "doc_count": 42
-              },
-              {
-                "key": "male",
-                "doc_count": 33
               }
             ]
           }
@@ -428,10 +1644,7 @@
           "key": "1000.0-*",
           "from": 1000,
           "doc_count": 74,
-          "avg_age": {
-            "value": 5
-          },
-          "n_locations": {
+          "location_distribution": {
             "doc_count_error_upper_bound": 0,
             "sum_other_doc_count": 0,
             "buckets": [
@@ -445,14 +1658,129 @@
                     {
                       "key": "chinook",
                       "doc_count": 65,
-                      "min_length": {
-                        "value": 773
-                      },
-                      "oldest": {
-                        "value": 6
-                      },
-                      "max_length": {
-                        "value": 1045
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 36,
+                            "stats": {
+                              "count": 36,
+                              "min": 794,
+                              "max": 958,
+                              "avg": 880.3611111111111,
+                              "sum": 31693
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 36,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "m-YQvIwB4ZEsnxBwsRBO",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 941,
+                                      "Age": 5
+                                    },
+                                    "sort": [
+                                      5,
+                                      941
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 36,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "6uUQvIwB4ZEsnxBwrscp",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 868,
+                                      "Age": 6
+                                    },
+                                    "sort": [
+                                      6,
+                                      868
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "key": "male",
+                            "doc_count": 29,
+                            "stats": {
+                              "count": 29,
+                              "min": 773,
+                              "max": 1045,
+                              "avg": 885.1034482758621,
+                              "sum": 25668
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 29,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "7-YQvIwB4ZEsnxBwskHZ",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 805,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      805
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 29,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "Q-UQvIwB4ZEsnxBwqoyr",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 849,
+                                      "Age": 6
+                                    },
+                                    "sort": [
+                                      6,
+                                      849
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -468,14 +1796,129 @@
                     {
                       "key": "sockeye",
                       "doc_count": 5,
-                      "min_length": {
-                        "value": 469
-                      },
-                      "oldest": {
-                        "value": 4
-                      },
-                      "max_length": {
-                        "value": 600
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 4,
+                            "stats": {
+                              "count": 4,
+                              "min": 469,
+                              "max": 600,
+                              "avg": 528,
+                              "sum": 2112
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 4,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "guYQvIwB4ZEsnxBwsiUb",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 469,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      469
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 4,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "duUQvIwB4ZEsnxBwqHIL",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 500,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      500
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "key": "male",
+                            "doc_count": 1,
+                            "stats": {
+                              "count": 1,
+                              "min": 554,
+                              "max": 554,
+                              "avg": 554,
+                              "sum": 554
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "hOUQvIwB4ZEsnxBwqGgK",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 554,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      554
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "hOUQvIwB4ZEsnxBwqGgK",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 554,
+                                      "Age": 4
+                                    },
+                                    "sort": [
+                                      4,
+                                      554
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -491,14 +1934,70 @@
                     {
                       "key": "sockeye",
                       "doc_count": 2,
-                      "min_length": {
-                        "value": 524
-                      },
-                      "oldest": {
-                        "value": 3
-                      },
-                      "max_length": {
-                        "value": 620
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 2,
+                            "stats": {
+                              "count": 2,
+                              "min": 524,
+                              "max": 620,
+                              "avg": 572,
+                              "sum": 1144
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 2,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "cuYQvIwB4ZEsnxBws1mS",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 620,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      620
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 2,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "kuUQvIwB4ZEsnxBwrtfz",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 524,
+                                      "Age": 3
+                                    },
+                                    "sort": [
+                                      3,
+                                      524
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -514,14 +2013,70 @@
                     {
                       "key": "chinook",
                       "doc_count": 1,
-                      "min_length": {
-                        "value": 940
-                      },
-                      "oldest": {
-                        "value": 2
-                      },
-                      "max_length": {
-                        "value": 940
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 1,
+                            "stats": {
+                              "count": 1,
+                              "min": 940,
+                              "max": 940,
+                              "avg": 940,
+                              "sum": 940
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "yOUQvIwB4ZEsnxBwqGAJ",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 940,
+                                      "Age": 2
+                                    },
+                                    "sort": [
+                                      2,
+                                      940
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "yOUQvIwB4ZEsnxBwqGAJ",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 940,
+                                      "Age": 2
+                                    },
+                                    "sort": [
+                                      2,
+                                      940
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
@@ -537,32 +2092,74 @@
                     {
                       "key": "chinook",
                       "doc_count": 1,
-                      "min_length": {
-                        "value": 901
-                      },
-                      "oldest": {
-                        "value": 5
-                      },
-                      "max_length": {
-                        "value": 901
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 1,
+                            "stats": {
+                              "count": 1,
+                              "min": 901,
+                              "max": 901,
+                              "avg": 901,
+                              "sum": 901
+                            },
+                            "big_youngest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "quYQvIwB4ZEsnxBwtHb9",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 901,
+                                      "Age": 5
+                                    },
+                                    "sort": [
+                                      5,
+                                      901
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "small_oldest": {
+                              "hits": {
+                                "total": {
+                                  "value": 1,
+                                  "relation": "eq"
+                                },
+                                "max_score": null,
+                                "hits": [
+                                  {
+                                    "_index": "salmon_dataset",
+                                    "_id": "quYQvIwB4ZEsnxBwtHb9",
+                                    "_score": null,
+                                    "_source": {
+                                      "Length": 901,
+                                      "Age": 5
+                                    },
+                                    "sort": [
+                                      5,
+                                      901
+                                    ]
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        ]
                       }
                     }
                   ]
                 }
-              }
-            ]
-          },
-          "sex_distribution": {
-            "doc_count_error_upper_bound": 0,
-            "sum_other_doc_count": 0,
-            "buckets": [
-              {
-                "key": "female",
-                "doc_count": 41
-              },
-              {
-                "key": "male",
-                "doc_count": 33
               }
             ]
           }
