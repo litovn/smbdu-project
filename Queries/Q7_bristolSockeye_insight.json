@@ -1,0 +1,1068 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 413,
+      "relation": "eq"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "groupby_location": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "Kvichak River",
+          "doc_count": 150,
+          "tot_samples": {
+            "value": 30
+          },
+          "groupby_ASLp": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "escapement",
+                "doc_count": 148,
+                "yearly_trend": {
+                  "buckets": [
+                    {
+                      "key_as_string": "1974",
+                      "key": 126230400000,
+                      "doc_count": 5,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 5
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 344.2
+                      },
+                      "avg_weight_yearly": {
+                        "value": 0.766
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 2,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 3
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1977",
+                      "key": 220924800000,
+                      "doc_count": 5,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 5
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 378.8
+                      },
+                      "avg_weight_yearly": {
+                        "value": 25.2
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 1,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 4
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1978",
+                      "key": 252460800000,
+                      "doc_count": 138,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 138
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 387.731884057971
+                      },
+                      "avg_weight_yearly": {
+                        "value": 0
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 23,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 115
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "test fishing",
+                "doc_count": 2,
+                "yearly_trend": {
+                  "buckets": [
+                    {
+                      "key_as_string": "1988",
+                      "key": 567993600000,
+                      "doc_count": 1,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "gillnet",
+                            "doc_count": 1
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 494
+                      },
+                      "avg_weight_yearly": {
+                        "value": 196
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 1
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1991",
+                      "key": 662688000000,
+                      "doc_count": 1,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "gillnet",
+                            "doc_count": 1
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 399
+                      },
+                      "avg_weight_yearly": {
+                        "value": 84
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 1
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "Ugashik River",
+          "doc_count": 147,
+          "tot_samples": {
+            "value": 21
+          },
+          "groupby_ASLp": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "escapement",
+                "doc_count": 143,
+                "yearly_trend": {
+                  "buckets": [
+                    {
+                      "key_as_string": "1974",
+                      "key": 126230400000,
+                      "doc_count": 2,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 2
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 380
+                      },
+                      "avg_weight_yearly": {
+                        "value": 1.06
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 2
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1978",
+                      "key": 252460800000,
+                      "doc_count": 141,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 141
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 386.4255319148936
+                      },
+                      "avg_weight_yearly": {
+                        "value": 7.787234042553192
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 11,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 130
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "test fishing",
+                "doc_count": 4,
+                "yearly_trend": {
+                  "buckets": [
+                    {
+                      "key_as_string": "1988",
+                      "key": 567993600000,
+                      "doc_count": 4,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "gillnet",
+                            "doc_count": 4
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 401.5
+                      },
+                      "avg_weight_yearly": {
+                        "value": 72
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 2,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 2
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "Naknek River",
+          "doc_count": 42,
+          "tot_samples": {
+            "value": 27
+          },
+          "groupby_ASLp": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "escapement",
+                "doc_count": 42,
+                "yearly_trend": {
+                  "buckets": [
+                    {
+                      "key_as_string": "1963",
+                      "key": -220924800000,
+                      "doc_count": 12,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 12
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 389.4166666666667
+                      },
+                      "avg_weight_yearly": {
+                        "value": 0.7583333333333333
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 12
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1964",
+                      "key": -189388800000,
+                      "doc_count": 2,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 2
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 356.5
+                      },
+                      "avg_weight_yearly": {
+                        "value": 0.635
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 2
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1965",
+                      "key": -157766400000,
+                      "doc_count": 14,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 14
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 360.64285714285717
+                      },
+                      "avg_weight_yearly": {
+                        "value": 0.6942857142857143
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 14
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1971",
+                      "key": 31536000000,
+                      "doc_count": 3,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 3
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 365
+                      },
+                      "avg_weight_yearly": {
+                        "value": 0.7233333333333333
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 3
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1974",
+                      "key": 126230400000,
+                      "doc_count": 6,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 6
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 345.1666666666667
+                      },
+                      "avg_weight_yearly": {
+                        "value": 0.8133333333333334
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 1,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 5
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1978",
+                      "key": 252460800000,
+                      "doc_count": 5,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 5
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 357.4
+                      },
+                      "avg_weight_yearly": {
+                        "value": 0
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 1,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 4
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "Egegik River",
+          "doc_count": 41,
+          "tot_samples": {
+            "value": 16
+          },
+          "groupby_ASLp": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "escapement",
+                "doc_count": 41,
+                "yearly_trend": {
+                  "buckets": [
+                    {
+                      "key_as_string": "1971",
+                      "key": 31536000000,
+                      "doc_count": 1,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 1
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 401
+                      },
+                      "avg_weight_yearly": {
+                        "value": 0.77
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 1
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1978",
+                      "key": 252460800000,
+                      "doc_count": 40,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 40
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 382.8
+                      },
+                      "avg_weight_yearly": {
+                        "value": 0
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 14,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 26
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "Alagnak River",
+          "doc_count": 21,
+          "tot_samples": {
+            "value": 7
+          },
+          "groupby_ASLp": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "escapement",
+                "doc_count": 21,
+                "yearly_trend": {
+                  "buckets": [
+                    {
+                      "key_as_string": "1965",
+                      "key": -157766400000,
+                      "doc_count": 17,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 17
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 271.29411764705884
+                      },
+                      "avg_weight_yearly": {
+                        "value": 0.6911764705882353
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 17
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1971",
+                      "key": 31536000000,
+                      "doc_count": 1,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 1
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 469
+                      },
+                      "avg_weight_yearly": {
+                        "value": 1.54
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 1
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1974",
+                      "key": 126230400000,
+                      "doc_count": 2,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 2
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 327.5
+                      },
+                      "avg_weight_yearly": {
+                        "value": 0.68
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 2
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1975",
+                      "key": 157766400000,
+                      "doc_count": 1,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 1
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 320
+                      },
+                      "avg_weight_yearly": {
+                        "value": 0.68
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 1
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "Wood River",
+          "doc_count": 7,
+          "tot_samples": {
+            "value": 4
+          },
+          "groupby_ASLp": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "escapement",
+                "doc_count": 7,
+                "yearly_trend": {
+                  "buckets": [
+                    {
+                      "key_as_string": "1964",
+                      "key": -189388800000,
+                      "doc_count": 1,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 1
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 386
+                      },
+                      "avg_weight_yearly": {
+                        "value": 2.4
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 1
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1971",
+                      "key": 31536000000,
+                      "doc_count": 3,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 3
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 360
+                      },
+                      "avg_weight_yearly": {
+                        "value": 1.8999999999999997
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 3
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1974",
+                      "key": 126230400000,
+                      "doc_count": 3,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 3
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 527
+                      },
+                      "avg_weight_yearly": {
+                        "value": 5.3
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 1,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 2
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "Nushagak River",
+          "doc_count": 2,
+          "tot_samples": {
+            "value": 2
+          },
+          "groupby_ASLp": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "escapement",
+                "doc_count": 2,
+                "yearly_trend": {
+                  "buckets": [
+                    {
+                      "key_as_string": "1974",
+                      "key": 126230400000,
+                      "doc_count": 2,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 2
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 467.5
+                      },
+                      "avg_weight_yearly": {
+                        "value": 4.550000000000001
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 2
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "Snake River",
+          "doc_count": 2,
+          "tot_samples": {
+            "value": 2
+          },
+          "groupby_ASLp": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "escapement",
+                "doc_count": 2,
+                "yearly_trend": {
+                  "buckets": [
+                    {
+                      "key_as_string": "1976",
+                      "key": 189302400000,
+                      "doc_count": 1,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 1
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 505
+                      },
+                      "avg_weight_yearly": {
+                        "value": 4.5
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 1
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key_as_string": "1979",
+                      "key": 283996800000,
+                      "doc_count": 1,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "weir",
+                            "doc_count": 1
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 400
+                      },
+                      "avg_weight_yearly": {
+                        "value": 104
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 1
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "Igushik River",
+          "doc_count": 1,
+          "tot_samples": {
+            "value": 1
+          },
+          "groupby_ASLp": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "escapement",
+                "doc_count": 1,
+                "yearly_trend": {
+                  "buckets": [
+                    {
+                      "key_as_string": "1974",
+                      "key": 126230400000,
+                      "doc_count": 1,
+                      "common_gear": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "seine",
+                            "doc_count": 1
+                          }
+                        ]
+                      },
+                      "avg_length_yearly": {
+                        "value": 480
+                      },
+                      "avg_weight_yearly": {
+                        "value": 4
+                      },
+                      "common_sex": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 1
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
