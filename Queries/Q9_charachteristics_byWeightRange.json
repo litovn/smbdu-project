@@ -1,0 +1,573 @@
+{
+  "took": 0,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "weight_ranges": {
+      "buckets": [
+        {
+          "key": "500.0-700.0",
+          "from": 500,
+          "to": 700,
+          "doc_count": 225,
+          "avg_age": {
+            "value": 4.262222222222222
+          },
+          "n_locations": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 1,
+            "buckets": [
+              {
+                "key": "Nushagak River",
+                "doc_count": 161,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "chinook",
+                      "doc_count": 155,
+                      "min_length": {
+                        "value": 345
+                      },
+                      "oldest": {
+                        "value": 6
+                      },
+                      "max_length": {
+                        "value": 1030
+                      }
+                    },
+                    {
+                      "key": "chum",
+                      "doc_count": 6,
+                      "min_length": {
+                        "value": 553
+                      },
+                      "oldest": {
+                        "value": 4
+                      },
+                      "max_length": {
+                        "value": 692
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Kutlaku Creek",
+                "doc_count": 29,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "sockeye",
+                      "doc_count": 29,
+                      "min_length": {
+                        "value": 480
+                      },
+                      "oldest": {
+                        "value": 5
+                      },
+                      "max_length": {
+                        "value": 570
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Noatak River",
+                "doc_count": 17,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "chum",
+                      "doc_count": 17,
+                      "min_length": {
+                        "value": 610
+                      },
+                      "oldest": {
+                        "value": 4
+                      },
+                      "max_length": {
+                        "value": 669
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Ugashik River",
+                "doc_count": 6,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "sockeye",
+                      "doc_count": 6,
+                      "min_length": {
+                        "value": 523
+                      },
+                      "oldest": {
+                        "value": 5
+                      },
+                      "max_length": {
+                        "value": 665
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Igushik River",
+                "doc_count": 3,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "sockeye",
+                      "doc_count": 3,
+                      "min_length": {
+                        "value": 620
+                      },
+                      "oldest": {
+                        "value": 4
+                      },
+                      "max_length": {
+                        "value": 650
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Kvichak River",
+                "doc_count": 3,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "sockeye",
+                      "doc_count": 3,
+                      "min_length": {
+                        "value": 520
+                      },
+                      "oldest": {
+                        "value": 4
+                      },
+                      "max_length": {
+                        "value": 570
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Unalakleet River",
+                "doc_count": 2,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "chum",
+                      "doc_count": 2,
+                      "min_length": {
+                        "value": 661
+                      },
+                      "oldest": {
+                        "value": 3
+                      },
+                      "max_length": {
+                        "value": 693
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Bethel (Village/City)",
+                "doc_count": 1,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "chum",
+                      "doc_count": 1,
+                      "min_length": {
+                        "value": 622
+                      },
+                      "oldest": {
+                        "value": 4
+                      },
+                      "max_length": {
+                        "value": 622
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Noatak River (below Kelly River)",
+                "doc_count": 1,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "chum",
+                      "doc_count": 1,
+                      "min_length": {
+                        "value": 711
+                      },
+                      "oldest": {
+                        "value": 3
+                      },
+                      "max_length": {
+                        "value": 711
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Paimiut (Village/City)",
+                "doc_count": 1,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "chinook",
+                      "doc_count": 1,
+                      "min_length": {
+                        "value": 1098
+                      },
+                      "oldest": {
+                        "value": 6
+                      },
+                      "max_length": {
+                        "value": 1098
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "sex_distribution": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "male",
+                "doc_count": 157
+              },
+              {
+                "key": "female",
+                "doc_count": 68
+              }
+            ]
+          }
+        },
+        {
+          "key": "700.0-1000.0",
+          "from": 700,
+          "to": 1000,
+          "doc_count": 75,
+          "avg_age": {
+            "value": 4.573333333333333
+          },
+          "n_locations": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Nushagak River",
+                "doc_count": 63,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "chinook",
+                      "doc_count": 61,
+                      "min_length": {
+                        "value": 715
+                      },
+                      "oldest": {
+                        "value": 6
+                      },
+                      "max_length": {
+                        "value": 865
+                      }
+                    },
+                    {
+                      "key": "chum",
+                      "doc_count": 2,
+                      "min_length": {
+                        "value": 598
+                      },
+                      "oldest": {
+                        "value": 3
+                      },
+                      "max_length": {
+                        "value": 613
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Salcha River",
+                "doc_count": 10,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "chinook",
+                      "doc_count": 10,
+                      "min_length": {
+                        "value": 680
+                      },
+                      "oldest": {
+                        "value": 5
+                      },
+                      "max_length": {
+                        "value": 885
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Igushik River",
+                "doc_count": 1,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "sockeye",
+                      "doc_count": 1,
+                      "min_length": {
+                        "value": 539
+                      },
+                      "oldest": {
+                        "value": 4
+                      },
+                      "max_length": {
+                        "value": 539
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Teslin (Village/City)",
+                "doc_count": 1,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "chinook",
+                      "doc_count": 1,
+                      "min_length": {
+                        "value": 660
+                      },
+                      "oldest": {
+                        "value": 4
+                      },
+                      "max_length": {
+                        "value": 660
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "sex_distribution": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "female",
+                "doc_count": 42
+              },
+              {
+                "key": "male",
+                "doc_count": 33
+              }
+            ]
+          }
+        },
+        {
+          "key": "1000.0-*",
+          "from": 1000,
+          "doc_count": 74,
+          "avg_age": {
+            "value": 5
+          },
+          "n_locations": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Nushagak River",
+                "doc_count": 65,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "chinook",
+                      "doc_count": 65,
+                      "min_length": {
+                        "value": 773
+                      },
+                      "oldest": {
+                        "value": 6
+                      },
+                      "max_length": {
+                        "value": 1045
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Kvichak River",
+                "doc_count": 5,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "sockeye",
+                      "doc_count": 5,
+                      "min_length": {
+                        "value": 469
+                      },
+                      "oldest": {
+                        "value": 4
+                      },
+                      "max_length": {
+                        "value": 600
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Ugashik River",
+                "doc_count": 2,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "sockeye",
+                      "doc_count": 2,
+                      "min_length": {
+                        "value": 524
+                      },
+                      "oldest": {
+                        "value": 3
+                      },
+                      "max_length": {
+                        "value": 620
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Flat Island",
+                "doc_count": 1,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "chinook",
+                      "doc_count": 1,
+                      "min_length": {
+                        "value": 940
+                      },
+                      "oldest": {
+                        "value": 2
+                      },
+                      "max_length": {
+                        "value": 940
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Paimiut (Village/City)",
+                "doc_count": 1,
+                "species_distribution": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "chinook",
+                      "doc_count": 1,
+                      "min_length": {
+                        "value": 901
+                      },
+                      "oldest": {
+                        "value": 5
+                      },
+                      "max_length": {
+                        "value": 901
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "sex_distribution": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "female",
+                "doc_count": 41
+              },
+              {
+                "key": "male",
+                "doc_count": 33
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
