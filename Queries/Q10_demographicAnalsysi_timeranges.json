@@ -1,0 +1,564 @@
+{
+  "took": 36,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 10000,
+      "relation": "gte"
+    },
+    "max_score": null,
+    "hits": []
+  },
+  "aggregations": {
+    "time_comparison": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "2010-2015",
+          "doc_count": 40543,
+          "seasonal_distribution": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Summer",
+                "doc_count": 32087,
+                "species_terms": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "sockeye",
+                      "doc_count": 28068,
+                      "age_distribution": {
+                        "buckets": [
+                          {
+                            "key": 1,
+                            "doc_count": 41
+                          },
+                          {
+                            "key": 2,
+                            "doc_count": 2684
+                          },
+                          {
+                            "key": 3,
+                            "doc_count": 8885
+                          },
+                          {
+                            "key": 4,
+                            "doc_count": 13498
+                          },
+                          {
+                            "key": 5,
+                            "doc_count": 2931
+                          },
+                          {
+                            "key": 6,
+                            "doc_count": 29
+                          }
+                        ]
+                      },
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 14310
+                          },
+                          {
+                            "key": "female",
+                            "doc_count": 13747
+                          },
+                          {
+                            "key": "examined but did not identify",
+                            "doc_count": 10
+                          },
+                          {
+                            "key": "unknown",
+                            "doc_count": 1
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key": "chinook",
+                      "doc_count": 3076,
+                      "age_distribution": {
+                        "buckets": [
+                          {
+                            "key": 1,
+                            "doc_count": 18
+                          },
+                          {
+                            "key": 2,
+                            "doc_count": 64
+                          },
+                          {
+                            "key": 3,
+                            "doc_count": 288
+                          },
+                          {
+                            "key": 4,
+                            "doc_count": 1563
+                          },
+                          {
+                            "key": 5,
+                            "doc_count": 1022
+                          },
+                          {
+                            "key": 6,
+                            "doc_count": 120
+                          },
+                          {
+                            "key": 7,
+                            "doc_count": 1
+                          }
+                        ]
+                      },
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 1984
+                          },
+                          {
+                            "key": "female",
+                            "doc_count": 1041
+                          },
+                          {
+                            "key": "unknown",
+                            "doc_count": 51
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key": "chum",
+                      "doc_count": 707,
+                      "age_distribution": {
+                        "buckets": [
+                          {
+                            "key": 2,
+                            "doc_count": 59
+                          },
+                          {
+                            "key": 3,
+                            "doc_count": 305
+                          },
+                          {
+                            "key": 4,
+                            "doc_count": 328
+                          },
+                          {
+                            "key": 5,
+                            "doc_count": 15
+                          }
+                        ]
+                      },
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 407
+                          },
+                          {
+                            "key": "female",
+                            "doc_count": 300
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key": "coho",
+                      "doc_count": 236,
+                      "age_distribution": {
+                        "buckets": [
+                          {
+                            "key": 2,
+                            "doc_count": 139
+                          },
+                          {
+                            "key": 3,
+                            "doc_count": 97
+                          }
+                        ]
+                      },
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 143
+                          },
+                          {
+                            "key": "female",
+                            "doc_count": 92
+                          },
+                          {
+                            "key": "examined but did not identify",
+                            "doc_count": 1
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Fall",
+                "doc_count": 8454,
+                "species_terms": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "sockeye",
+                      "doc_count": 4588,
+                      "age_distribution": {
+                        "buckets": [
+                          {
+                            "key": 1,
+                            "doc_count": 7
+                          },
+                          {
+                            "key": 2,
+                            "doc_count": 368
+                          },
+                          {
+                            "key": 3,
+                            "doc_count": 1324
+                          },
+                          {
+                            "key": 4,
+                            "doc_count": 1824
+                          },
+                          {
+                            "key": 5,
+                            "doc_count": 1057
+                          },
+                          {
+                            "key": 6,
+                            "doc_count": 8
+                          }
+                        ]
+                      },
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 2344
+                          },
+                          {
+                            "key": "female",
+                            "doc_count": 2241
+                          },
+                          {
+                            "key": "examined but did not identify",
+                            "doc_count": 3
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key": "chum",
+                      "doc_count": 1937,
+                      "age_distribution": {
+                        "buckets": [
+                          {
+                            "key": 2,
+                            "doc_count": 134
+                          },
+                          {
+                            "key": 3,
+                            "doc_count": 1223
+                          },
+                          {
+                            "key": 4,
+                            "doc_count": 556
+                          },
+                          {
+                            "key": 5,
+                            "doc_count": 24
+                          }
+                        ]
+                      },
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 995
+                          },
+                          {
+                            "key": "female",
+                            "doc_count": 942
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key": "coho",
+                      "doc_count": 1929,
+                      "age_distribution": {
+                        "buckets": [
+                          {
+                            "key": 1,
+                            "doc_count": 9
+                          },
+                          {
+                            "key": 2,
+                            "doc_count": 1161
+                          },
+                          {
+                            "key": 3,
+                            "doc_count": 751
+                          },
+                          {
+                            "key": 4,
+                            "doc_count": 8
+                          }
+                        ]
+                      },
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 1170
+                          },
+                          {
+                            "key": "female",
+                            "doc_count": 758
+                          },
+                          {
+                            "key": "examined but did not identify",
+                            "doc_count": 1
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Winter",
+                "doc_count": 2,
+                "species_terms": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "chinook",
+                      "doc_count": 2,
+                      "age_distribution": {
+                        "buckets": [
+                          {
+                            "key": 3,
+                            "doc_count": 2
+                          }
+                        ]
+                      },
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "female",
+                            "doc_count": 1
+                          },
+                          {
+                            "key": "male",
+                            "doc_count": 1
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "1970-1975",
+          "doc_count": 7114,
+          "seasonal_distribution": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 0,
+            "buckets": [
+              {
+                "key": "Summer",
+                "doc_count": 7091,
+                "species_terms": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "sockeye",
+                      "doc_count": 7066,
+                      "age_distribution": {
+                        "buckets": [
+                          {
+                            "key": 2,
+                            "doc_count": 10
+                          },
+                          {
+                            "key": 3,
+                            "doc_count": 1797
+                          },
+                          {
+                            "key": 4,
+                            "doc_count": 4611
+                          },
+                          {
+                            "key": 5,
+                            "doc_count": 644
+                          },
+                          {
+                            "key": 6,
+                            "doc_count": 4
+                          }
+                        ]
+                      },
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 3537
+                          },
+                          {
+                            "key": "female",
+                            "doc_count": 3527
+                          },
+                          {
+                            "key": "unknown",
+                            "doc_count": 2
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key": "chinook",
+                      "doc_count": 24,
+                      "age_distribution": {
+                        "buckets": [
+                          {
+                            "key": 4,
+                            "doc_count": 14
+                          },
+                          {
+                            "key": 5,
+                            "doc_count": 10
+                          }
+                        ]
+                      },
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 15
+                          },
+                          {
+                            "key": "female",
+                            "doc_count": 9
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "key": "chum",
+                      "doc_count": 1,
+                      "age_distribution": {
+                        "buckets": [
+                          {
+                            "key": 2,
+                            "doc_count": 1
+                          }
+                        ]
+                      },
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 1
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Spring",
+                "doc_count": 23,
+                "species_terms": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "sockeye",
+                      "doc_count": 23,
+                      "age_distribution": {
+                        "buckets": [
+                          {
+                            "key": 3,
+                            "doc_count": 9
+                          },
+                          {
+                            "key": 4,
+                            "doc_count": 12
+                          },
+                          {
+                            "key": 5,
+                            "doc_count": 2
+                          }
+                        ]
+                      },
+                      "sex_distribution": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 0,
+                        "buckets": [
+                          {
+                            "key": "male",
+                            "doc_count": 16
+                          },
+                          {
+                            "key": "female",
+                            "doc_count": 7
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
