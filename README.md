@@ -33,7 +33,7 @@ sample = sub_data.sample(frac=(1))
 sample.to_csv('ASL_sample.csv', index=False)
 ```
 
-Because of this process of transformation, we managed to exclude rows that contained missing or suspicious values and select specific columns that will help with the analysis by exporting a subset of the original set that will now include 112.847 data points and 15 columns.
+Because of this process of transformation, we managed to exclude rows that contained missing or suspicious values and select specific columns that will help with the analysis by exporting a subset of the original set that will now include 112.847 data points and 15 columns, saved as [ASL_sample.csv](ASL_sample.csv).
 
 ## The Queries
 ### Q1. Data mapping
